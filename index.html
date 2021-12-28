@@ -1,16 +1,64 @@
 <!DOCTYPE html>
-<html lang="uz">
+<html lang="en">
 <head>
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Project</title>
+     <title>Account Settings</title>
 
      <!-- Stylesheets   -->
      <link rel="stylesheet" href="css/normalize.css ">
      <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+     <div class=" container main-section">
+          <div class="main-wapper">
+
+               <!-- Header  -->
+               <header class="header">
+                    <h2 class="main-header">Account Settings</h2>
+                    <button class="header-btn"></button>
+               </header>
+
+               <!-- User info  -->
+               <div class="main-info">
+                    <section class="info-img-wrapper"><img class="info-img" src="./img/avatar.jpg" alt="frofile image" width="70" height="70" ></section>
+                    <form class="info-form" action="https://echo/htmlacademy.ru" method="POST">
+                         <!-- USERNAME  -->
+                         <div class="info-username">
+                              <label class="username-label" for="username-input">username</label>
+                              <input class="username-input" type="text" id="username-input" name="username" placeholder="Enter your username">
+                         </div>
+                         <!-- First and last name  -->
+                         <div class=" info-first-and-last-name">
+                              <div class=" info-firstname">
+                                   <label class="username-label" for="firstname-input">first name</label>
+                                   <input class="username-input" type="text" id="firstname-input" name="firstname" placeholder="Enter your first name">
+                              </div>
+                              <div class="info-lastname">
+                                   <label class="username-label" for="lastname-input">last name</label>
+                                   <input class="username-input" type="text" id="lastname-input" name="lastname" placeholder="Enter your last name">
+                              </div>
+                         </div>
+                         <!-- email  -->
+                         <div class="info-username info-email">
+                              <label class="username-label" for="email-input">email</label>
+                              <input class="username-input" type="email" id="email-input" name="email" placeholder="Enter your email">
+                         </div>
+                         <!-- Bio  -->
+                         <div class="info-bio">
+                              <label class="username-label" for="bio-input">bio</label>
+                              <textarea class="bio-textarea" id="bio-input" name="text" placeholder="Tell us about yourself"></textarea>
+                         </div>
+                    </form>
+               </div>
+
+               <div class="btn-wrapper">
+                    <button class="btn-cancel">Cancel</button>
+                    <button class="btn-save">Save</button>
+               </div>
+          </div>
+     </div>
      <script src="/js/main.js"></script>
 </body>
 </html>
