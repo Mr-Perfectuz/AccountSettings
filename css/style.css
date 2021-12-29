@@ -67,7 +67,11 @@ img{
 }
 .main-header {
      font-weight: normal;
-
+     opacity: 0.6;
+     cursor: pointer;
+}
+.main-header:hover{
+     opacity: 1;
 }
 .header-btn{
      width: 20px;
@@ -78,6 +82,10 @@ img{
      background-position: center center;
      border: none;
      cursor: pointer;
+     opacity: 0.6;
+}
+.header-btn:hover{
+     opacity: 1;
 }
 .main-info {
      width: 620px;
@@ -169,10 +177,19 @@ img{
      margin-right: 30px;
      cursor: pointer;
      font-size: 20px;
+     opacity: 0.6;
 }
 .btn-save {
      background-color: yellow;
      border: none;
      cursor: pointer;
      font-size: 20px;
+     opacity: 0.6;
+}
+
+.btn-cancel:hover{
+     opacity: 1;
+}
+.btn-save:hover{
+     opacity: 1;
 }
